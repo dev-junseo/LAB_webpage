@@ -1,9 +1,9 @@
 function Header() {
   return (
-    <div className="flex justify-between items-center w-full h-20 bg-none">
+    <div className="flex justify-between items-center w-full h-20 bg-[rgb(245, 245, 245)]">
       <div className="ml-12">
             <a href="#">
-                <img className="w-20 h-18 block m-auto" alt="" src="/lab-logo.png" />
+                <img className="w-20 h-18 block m-auto" alt="" src="/images/lab-logo.png" />
             </a>
         </div>
         <nav className="">
