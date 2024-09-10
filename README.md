@@ -2,5 +2,4 @@
 
 <br/>
 
-<h3>공식 URL </h3>
-<div>data-steel-material-design-lab.vercel.app/</div>
+[공식 URL](data-steel-material-design-lab.vercel.app/)
