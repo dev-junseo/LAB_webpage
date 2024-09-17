@@ -13,24 +13,26 @@ function MainPage() {
 
       <div className="w-full h-[50vh] flex justify-between">
         <div className="bg-dark w-1/3 h-[50vh] flex justify-center items-center">
-            <div className="mb-14">
-                <h1 className="border-b border-white pb-10 mb-10 text-5xl text-white">Our Story</h1>
-                <a href="#" className="text-white">
-                    Get More        
-                </a>
-            </div>
+          <div className="mb-14">
+            <h1 className="border-b border-white pb-10 mb-10 text-5xl text-white">
+              Our Story
+            </h1>
+            <a href="#" className="text-white">
+              Get More
+            </a>
+          </div>
         </div>
 
         <div className="r-0 w-2/3 h-[50vh] bg-white flex justify-left items-center">
-            <div className="w-[450px] mt-[5%] mr-0 mb-24 ml-[25%]">
-                <h3 className="text-2xl mb-7">
-                    Get to Know Us
-                </h3>
-                <h3 className="text-xl">
-                    Our company is a company whose main business fields are construction machinery and equipment, design, supervision, construction consulting, various design changes, deliberation, and TAB.
-                </h3>
-                
-            </div>
+          <div className="w-[450px] mt-[5%] mr-0 mb-24 ml-[25%]">
+            <h3 className="text-2xl mb-7">Get to Know Us</h3>
+            <h3 className="text-xl">
+              Our company is a company whose main business fields are
+              construction machinery and equipment, design, supervision,
+              construction consulting, various design changes, deliberation, and
+              TAB.
+            </h3>
+          </div>
         </div>
       </div>
 
@@ -40,12 +42,7 @@ function MainPage() {
         </div>
       </div>
 
-      <div className="w-full h-[100vh] bg-white">
-        
-      </div>
-      <a href="https://info.flagcounter.com/0UwV">
-       <img className="" src="https://s11.flagcounter.com/count2/0UwV/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter" />
-      </a>
+      <div className="w-full h-[100vh] bg-white"></div>
     </div>
   );
 }
