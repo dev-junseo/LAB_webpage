@@ -5,8 +5,10 @@ function MainPage() {
         <div className="absolute w-full h-[92vh] bg-first-bg bg-cover bg-fixed"></div>
         <div className="absolute bg-[rgba(89,120,148,0.5)] w-1/3 h-[92vh] flex justify-end items-center">
           <div className="slide-right animate-[gotoRight_0.7s_ease-in-out_both] mr-[100px]">
-            <h1 className="text-4xl font-bold">Data Fustion Steel</h1>
-            <h1 className="text-4xl font-bold">Material Design Laboratory</h1>
+            <h1 className="text-4xl font-bold">
+              Advanced Steel Design & Data Fusion
+            </h1>
+            <h1 className="text-4xl font-bold">Lab</h1>
           </div>
         </div>
       </div>
@@ -17,20 +19,23 @@ function MainPage() {
             <h1 className="border-b border-white pb-10 mb-10 text-5xl text-white">
               Our Story
             </h1>
-            <a href="#" className="text-white">
+            <a href="/about/Overview" className="text-white">
               Get More
             </a>
           </div>
         </div>
 
         <div className="r-0 w-2/3 h-[50vh] bg-white flex justify-left items-center">
-          <div className="w-[450px] mt-[5%] mr-0 mb-24 ml-[25%]">
+          <div className="w-[80%] mt-[5%] mr-0 mb-24 ml-[10%]">
             <h3 className="text-2xl mb-7">Get to Know Us</h3>
-            <h3 className="text-xl">
-              Our company is a company whose main business fields are
-              construction machinery and equipment, design, supervision,
-              construction consulting, various design changes, deliberation, and
-              TAB.
+            <h3 className="text-lg">
+              Our Lab focuses on improving the properties of magnetic materials,
+              such as steel cores, which are essential in advanced mobility
+              applications. We conduct research on vacuum and gas heat
+              treatments, analyze magnetic properties, and evaluate texture and
+              rolling characteristics. Additionally, we develop new materials by
+              optimizing various processes using AI and predicting material
+              properties through metal material simulations.
             </h3>
           </div>
         </div>

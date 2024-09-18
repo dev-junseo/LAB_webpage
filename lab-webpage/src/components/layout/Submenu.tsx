@@ -1,14 +1,6 @@
-function Submenu({ menuName }: { menuName: string }) {
-  let menuLi: string[] = [];
-
-  if (menuName === "ABOUT") {
-    menuLi = ["OVERVIEW", "HISTORY", "LOCATION"];
-  } else if (menuName === "PROJECT") {
-    menuLi = ["PROJECT"];
-  }
-
+function Submenu() {
   return (
-    <div className="w-full h-14 bg-white border-y-[1px] border-[#b6b6b6]">
+    <div className="w-full h-14 bg-white border-y-[1px] border-[#b6b6b6] z-999">
       <ul>
         <li className="float-left w-12 h-[54px] relative bg-white border-r border-[#b6b6b6] flex justify-center items-center">
           <a href="/">
@@ -30,7 +22,7 @@ function Submenu({ menuName }: { menuName: string }) {
         </li>
         <li className="float-left w-36 h-[54px] relative bg-white border-r border-border flex justify-center items-center group">
           <a href="/about/Overview" className="">
-            {menuName}
+            ABOUT
           </a>
           <ul className="left-[-1px] w-[145px] hidden absolute top-[54px] text-sm bg-white border-r border-l border-border group-hover:block">
             <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
@@ -47,14 +39,14 @@ function Submenu({ menuName }: { menuName: string }) {
         <li className="float-left w-36 h-[54px] relative bg-white border-r border-border flex justify-center items-center group">
           <a href="/about/Overview">OVERVIEW</a>
           <ul className="left-[-1px] w-[145px] hidden absolute top-[54px] text-sm bg-white border-r border-l border-border group-hover:block">
-            <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border">
-              <a href="/about/Overview">{menuLi[0]}</a>
+            <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
+              <a href="/about/Overview">OVERVIEW</a>
             </li>
-            <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border">
-              <a href="#">{menuLi[1]}</a>
+            <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
+              <a href="/about/Pi">PI</a>
             </li>
-            <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border">
-              <a href="#">{menuLi[2]}</a>
+            <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
+              <a href="/about/Location">Location</a>
             </li>
           </ul>
         </li>

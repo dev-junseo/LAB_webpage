@@ -18,6 +18,16 @@ module.exports = {
             opacity: "1",
           },
         },
+        gotoDown: {
+          "0%": {
+            transform: "translateY(0)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(100px)",
+            opacity: "1",
+          },
+        },
       },
     },
     colors: {
