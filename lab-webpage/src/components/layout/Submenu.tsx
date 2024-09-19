@@ -1,6 +1,6 @@
-function Submenu() {
+function Submenu({ currentMenu }: {currentMenu: string}) {
   return (
-    <div className="w-full h-14 bg-white border-y-[1px] border-[#b6b6b6] z-999">
+    <div className="w-full h-14 bg-white border-y-[1px] border-[#b6b6b6] z-50">
       <ul>
         <li className="float-left w-12 h-[54px] relative bg-white border-r border-[#b6b6b6] flex justify-center items-center">
           <a href="/">
@@ -37,7 +37,7 @@ function Submenu() {
           </ul>
         </li>
         <li className="float-left w-36 h-[54px] relative bg-white border-r border-border flex justify-center items-center group">
-          <a href="/about/Overview">OVERVIEW</a>
+          <div>{currentMenu}</div>
           <ul className="left-[-1px] w-[145px] hidden absolute top-[54px] text-sm bg-white border-r border-l border-border group-hover:block">
             <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
               <a href="/about/Overview">OVERVIEW</a>

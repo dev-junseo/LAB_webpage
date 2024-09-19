@@ -3,17 +3,17 @@ import Submenu from "../components/layout/Submenu";
 function Overview() {
   return (
     <div>
-      <Submenu />
+      <Submenu currentMenu="Overview" />
 
       <div className="mx-[10%] mt-12">
         <div className="flex justify-center">
           <div>
-            <div className="text-center text-[60px] lg:mb-28 mb-16 text-title animate-[gotoDown_0.7s_ease-in-out_both]">
+            <div className="flex justify-center text-[60px] lg:mb-28 mb-16 text-title animate-[gotoDown_0.7s_ease-in-out_both]">
               <span>OVERVIEW</span>
             </div>
-            <div className="flex justify-center items-center flex-col lg:flex-row">
+            <div className="flex justify-center items-start flex-col lg:flex-row">
               <div className="w-full">
-                <div className="lg:mx-0 mx-0 mt-12 flex justify-center items-center">
+                <div className="lg:mt-20 mt-5 flex justify-center items-center">
                   <img
                     alt="logo"
                     src="/images/lab-logo.png"
