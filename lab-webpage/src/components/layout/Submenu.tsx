@@ -1,6 +1,6 @@
 function Submenu({ currentMenu }: {currentMenu: string}) {
   return (
-    <div className="w-full h-14 bg-white border-y-[1px] border-[#b6b6b6] z-50">
+    <div className="w-full h-14 bg-white border-y-[1px] border-[#b6b6b6] z-10">
       <ul>
         <li className="float-left w-12 h-[54px] relative bg-white border-r border-[#b6b6b6] flex justify-center items-center">
           <a href="/">
@@ -38,12 +38,15 @@ function Submenu({ currentMenu }: {currentMenu: string}) {
         </li>
         <li className="float-left w-36 h-[54px] relative bg-white border-r border-border flex justify-center items-center group">
           <div>{currentMenu}</div>
-          <ul className="left-[-1px] w-[145px] hidden absolute top-[54px] text-sm bg-white border-r border-l border-border group-hover:block">
+          <ul className="left-[-1px] w-[145px] hidden absolute top-[54px] text-sm bg-white border-r border-l border-border group-hover:block hover:block">
             <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
               <a href="/about/Overview">OVERVIEW</a>
             </li>
             <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
               <a href="/about/Pi">PI</a>
+            </li>
+            <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
+              <a href="/about/Members">MEMBERS</a>
             </li>
             <li className="flex justify-center items-center h-[54px] border-b border-border hover:bg-border transition">
               <a href="/about/Location">Location</a>

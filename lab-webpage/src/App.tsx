@@ -4,6 +4,7 @@ import MainPage from "./main/Mainpage";
 import Overview from "./about/Overview";
 import Location from "./about/Location";
 import Pi from "./about/Pi";
+import Members from "./about/Members";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/about/Overview" element={<Overview />} />
         <Route path="/about/Pi" element={<Pi />} />
         <Route path="/about/Location" element={<Location />} />
+        <Route path="/about/Members" element={<Members />} />
       </Routes>
     </div>
   );

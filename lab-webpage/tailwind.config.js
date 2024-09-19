@@ -28,12 +28,31 @@ module.exports = {
             opacity: "1",
           },
         },
+        gotoDownLow: {
+          "0%": {
+            transform: "translateY(0)",
+            opacity: "0",
+          },
+          "100%": {
+            transform: "translateY(50px)",
+            opacity: "1",
+          },
+        },
+        appear: {
+          "0%": {
+            opacity: "0",
+          },
+          "100%": {
+            opacity: "1",
+          },
+        },
       },
     },
     colors: {
       white: "rgb(255, 255, 255)",
       dark: "rgb(5, 5, 5)",
       border: "#b6b6b6",
+      borderA: "rgb(5, 5, 5, 0.3)",
       title: "#00305b",
     },
   },
