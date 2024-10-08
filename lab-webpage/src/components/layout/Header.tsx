@@ -3,18 +3,27 @@ import { useEffect, useState } from "react";
 function Header() {
   const [width, setWidth] = useState(window.innerWidth);
   const [isLarge, setIsLarge] = useState(Boolean);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const handleResize = () => {
     setWidth(window.innerWidth);
   };
 
+  const toggleSidebar = () => {
+    setIsSidebarOpen(!isSidebarOpen);
+  };
+
+  const closeSidebar = () => {
+    setIsSidebarOpen(false);
+  };
+
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     return () => {
-      // cleanup
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   useEffect(() => {
     if (width >= 1024) {
       setIsLarge(true);
@@ -22,13 +31,14 @@ function Header() {
       setIsLarge(false);
     }
   }, [width]);
+
   return (
     <div className="flex justify-between items-center w-full lg:h-20 h-14 bg-white relative border-b border-border">
       <div className="ml-12">
         <a href="/">
           <img
             className="lg:w-20 lg:h-16 w-16 h-[54px] block m-auto"
-            alt=""
+            alt="lab logo"
             src="/images/lab-logo.png"
           />
         </a>
@@ -81,8 +91,35 @@ function Header() {
         </div>
       ) : (
         <div className="">
-          <div className="peer">
-            <button className="mr-5">
+          {/* 햄버거 버튼 */}
+          <button className="mr-5" onClick={toggleSidebar}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="size-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </button>
+
+          {/* 사이드바 */}
+          <div
+            className={`fixed top-0 right-0 h-full bg-white z-50 transform transition-transform border-l border-border ${
+              isSidebarOpen ? "translate-x-0" : "translate-x-full"
+            } ${width <= 500 ? "w-full" : "w-[350px]"}`}
+          >
+            {/* 닫기 버튼 */}
+            <button
+              className="absolute top-5 right-5 text-xl"
+              onClick={closeSidebar}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -94,12 +131,45 @@ function Header() {
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  d="M6 18 18 6M6 6l12 12"
                 />
               </svg>
             </button>
+
+            <nav className="mt-14">
+              <ul className="flex flex-col mt-10">
+                <li className="py-4 border-y border-border">
+                  <a href="/about/Overview" className="text-xl ml-5">
+                    ABOUT
+                  </a>
+                  <ul className="ml-8">
+                    <li className="mt-1.5">
+                      <a href="/about/Overview">Overview</a>
+                    </li>
+                    <li className="mt-1.5">
+                      <a href="/about/Pi">Pi</a>
+                    </li>
+                    <li className="mt-1.5">
+                      <a href="/about/Members">Members</a>
+                    </li>
+                    <li className="mt-1.5">
+                      <a href="/about/Location">Location</a>
+                    </li>
+                  </ul>
+                </li>
+                <li className="py-4 border-b border-border">
+                  <a href="#" className="text-xl ml-5">
+                    PROJECT
+                  </a>
+                </li>
+                <li className="py-4 border-b border-border">
+                  <a href="#" className="text-xl ml-5">
+                    DEPARTMENT
+                  </a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <div className="w-full h-[100vh] hidden right-0 bg-border peer-hover:block hover:block z-40"></div>
         </div>
       )}
     </div>

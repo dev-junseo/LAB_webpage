@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="w-full h-20 bg-white block">
+    <div className="w-full h-20 bg-white block mt-10">
       footer
       <a href="https://info.flagcounter.com/0UwV">
         <img

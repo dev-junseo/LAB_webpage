@@ -1,6 +1,6 @@
-function Submenu({ currentMenu }: {currentMenu: string}) {
+function Submenu({ currentMenu }: { currentMenu: string }) {
   return (
-    <div className="w-full h-14 bg-white border-y-[1px] border-[#b6b6b6] z-10">
+    <div className="w-full h-14 bg-white border-y-[1px] border-[#b6b6b6] z-40">
       <ul>
         <li className="float-left w-12 h-[54px] relative bg-white border-r border-[#b6b6b6] flex justify-center items-center">
           <a href="/">
