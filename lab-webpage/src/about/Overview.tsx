@@ -3,8 +3,6 @@ import Submenu from "../components/layout/Submenu";
 function Overview() {
   return (
     <div>
-      <Submenu currentMenu="Overview" />
-
       <div className="mx-[10%] mt-10">
         <div className="flex justify-center">
           <div>

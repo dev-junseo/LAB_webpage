@@ -3,7 +3,6 @@ import Submenu from "../components/layout/Submenu";
 function Location() {
   return (
     <div>
-      <Submenu currentMenu="Location" />
       <div className="mx-[10%] mt-12">
         <div className="flex justify-center">
           <div>
