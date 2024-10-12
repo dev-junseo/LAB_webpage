@@ -33,7 +33,7 @@ function Header() {
   }, [width]);
 
   return (
-    <div className="flex justify-between items-center w-full lg:h-20 h-14 bg-white relative border-b border-border">
+    <div className="flex justify-between items-center lg:h-20 h-14 bg-white relative border-b border-border">
       <div className="ml-12">
         <a href="/">
           <img

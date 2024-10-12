@@ -1,47 +1,65 @@
 import Submenu from "../components/layout/Submenu";
+import MembersProfile from "../components/MembersProfile";
 
 function Members() {
+  const MemebersInfo = [
+    {
+      name: "Kim Hyeon Ah(김현아)",
+      profileImg: "/images/member-profile.png",
+      edu: "Combined B.S./M.S.",
+      major: "Department of Materials System",
+      email: "~~~@pukyong.ac.kr",
+    },
+    {
+      name: "Oh Su Bin(오수빈)",
+      profileImg: "/images/member-profile.png",
+      edu: "Combined B.S./M.S.",
+      major: "Department of Materials System",
+      email: "~~~@pukyong.ac.kr",
+    },
+    {
+      name: "Oh Ji Eun(오지은)",
+      profileImg: "/images/member-profile.png",
+      edu: "Combined B.S./M.S.",
+      major: "Department of Materials System",
+      email: "~~~@pukyong.ac.kr",
+    },
+    {
+      name: "Ha Jun Seo(하준서)",
+      profileImg: "/images/member-profile.png",
+      edu: "Combined B.S./M.S.",
+      major: "Department of Materials System",
+      email: "202130292@pukyong.ac.kr",
+    },
+    {
+      name: "Go Eun Su(고은수)",
+      profileImg: "/images/member-profile.png",
+      edu: "Undergraduate",
+      major: "Department of Materials System",
+      email: "~~~@pukyong.ac.kr",
+    },
+    {
+      name: "Yu Min Sang(유민상)",
+      profileImg: "/images/member-profile.png",
+      edu: "Undergraduate",
+      major: "Department of Materials System",
+      email: "~~~@pukyong.ac.kr",
+    },
+  ];
+
   return (
     <div>
-      <div className="mx-[10%] mt-12">
+      <div className="mt-12">
         <div className="flex justify-center">
           <div>
-            <div className="text-center lg:mb-28 mb-16 animate-[gotoDown_0.7s_ease-in-out_both] flex justify-center items-center flex-col">
-              <span className="text-title text-[60px]">MEMBERS</span>
-              <div className="flex items-center justify-center flex-wrap w-3/4">
-                <div className="w-[450px] h-60 bg-border m-8"></div>
-                <div className="w-[450px] h-60 bg-border m-8 p-4 flex">
-                  <div className="w-40 h-40">
-                    <img
-                      className="w-full h-full object-cover rounded-md"
-                      src="/images/member-profile.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="ml-4">
-                    <div className="mb-4 text-lg font-bold text-title flex items-center">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className="size-6 mr-2"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z"
-                        />
-                      </svg>
-                      {"Ha Jun Seo(하준서)"}
-                    </div>
-                  </div>
-                </div>
-                <div className="w-[450px] h-60 bg-border m-8"></div>
-                <div className="w-[450px] h-60 bg-border m-8"></div>
-                <div className="w-[450px] h-60 bg-border m-8"></div>
-                <div className="w-[450px] h-60 bg-border m-8"></div>
+            <div className="text-center lg:mb-28 mb-16 flex justify-center items-center flex-col">
+              <span className="text-title text-[60px] mb-28 animate-[gotoDown_0.7s_ease-in-out_both]">
+                MEMBERS
+              </span>
+              <div className="flex items-center justify-center grid lg:grid-cols-2 grid-cols-1">
+                {MemebersInfo.map((info) => {
+                  return <MembersProfile info={info} />;
+                })}
               </div>
             </div>
           </div>
