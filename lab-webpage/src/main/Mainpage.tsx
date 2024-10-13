@@ -81,8 +81,8 @@ function MainPage() {
           <div className="grid md:grid-cols-2 grid-cols-1 gap-y-20">
             <div className="w-11/12 h-11/12 p-4">
               <img
-                className="w-full h-full object-cover rounded-md"
-                src="/images/our_work(1).jpg"
+                className="w-full h-full object-cover rounded-xl"
+                src="/images/our_work(4).jpg"
                 alt=""
               />
               <div className="text-2xl mt-1.5 flex items-center">
@@ -105,7 +105,7 @@ function MainPage() {
             </div>
             <div className="w-11/12 h-11/12 p-4">
               <img
-                className="w-full h-full object-cover rounded-md"
+                className="w-full h-full object-cover rounded-xl"
                 src="/images/our_work(2).jpg"
                 alt=""
               />
@@ -129,7 +129,7 @@ function MainPage() {
             </div>
             <div className="w-11/12 h-5/6 p-4">
               <img
-                className="w-full h-full object-cover rounded-md"
+                className="w-full h-full object-cover rounded-xl"
                 src="/images/our_work(3).webp"
                 alt=""
               />
