@@ -1,4 +1,3 @@
-import Submenu from "../components/layout/Submenu";
 import MembersProfile from "../components/MembersProfile";
 
 function Members() {

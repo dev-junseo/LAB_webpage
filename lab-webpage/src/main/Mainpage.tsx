@@ -77,30 +77,33 @@ function MainPage() {
 
       <div className="w-full h-full flex justify-center items-center clex-col my-20">
         <div className="w-4/5 max-w-[1440px]">
-          <div className="text-4xl mb-2">Our research areas</div>
-          <div className="grid md:grid-cols-2 grid-cols-1 gap-y-20">
+          <div className="text-5xl mb-4">Our research areas</div>
+          <div className="grid md:grid-cols-2 grid-cols-1 gap-y-32">
             <div className="w-11/12 h-11/12 p-4">
               <img
                 className="w-full h-full object-cover rounded-xl"
                 src="/images/our_work(4).jpg"
                 alt=""
               />
-              <div className="text-2xl mt-1.5 flex items-center">
-                3D Printing for AM Metal
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="size-6 ml-2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
+              <div className="mt-1.5">
+                <div className="text-3xl mt-1.5 flex items-center">
+                  3D Printing for AM Metal
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-6 ml-2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-1">asdfsadfasdfasdf</div>
               </div>
             </div>
             <div className="w-11/12 h-11/12 p-4">
@@ -109,22 +112,25 @@ function MainPage() {
                 src="/images/our_work(2).jpg"
                 alt=""
               />
-              <div className="text-2xl mt-1.5 flex items-center">
-                GO / NO Steel properties
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="size-6 ml-2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
+              <div className="mt-1.5">
+                <div className="text-3xl mt-1.5 flex items-center">
+                  GO / NO Steel properties
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-6 ml-2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-1">asdfsadfasdfasdf</div>
               </div>
             </div>
             <div className="w-11/12 h-5/6 p-4">
@@ -133,22 +139,25 @@ function MainPage() {
                 src="/images/our_work(3).webp"
                 alt=""
               />
-              <div className="text-2xl mt-1.5 flex items-center">
-                AI Optimized
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth={1.5}
-                  stroke="currentColor"
-                  className="size-6 ml-2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
-                  />
-                </svg>
+              <div className="mt-1.5">
+                <div className="text-3xl mt-1.5 flex items-center">
+                  AI Optimized
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-6 ml-2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                    />
+                  </svg>
+                </div>
+                <div className="mt-1">asdfsadfasdfasdf</div>
               </div>
             </div>
           </div>

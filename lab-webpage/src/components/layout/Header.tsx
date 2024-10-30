@@ -69,7 +69,7 @@ function Header() {
                       <a href="/about/Overview">OVERVIEW</a>
                     </li>
                     <li className="flex justify-center items-center h-[54px]">
-                      <a href="/about/Pi">PI</a>
+                      <a href="/about/Pi">LEADER</a>
                     </li>
                     <li className="flex justify-center items-center h-[54px]">
                       <a href="/about/Members">MEMBERS</a>
