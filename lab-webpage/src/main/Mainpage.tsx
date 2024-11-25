@@ -1,14 +1,14 @@
 function MainPage() {
   return (
     <div className="font-light">
-      <div className="w-full h-[92vh] relative">
-        <div className="absolute w-full h-[92vh] bg-first-bg bg-cover bg-fixed"></div>
-        <div className="absolute bg-[rgba(89,120,148,0.5)] w-1/3 h-[92vh] flex justify-end items-center">
-          <div className="slide-right animate-[gotoRight_0.7s_ease-in-out_both] mr-[110px]">
-            <h1 className="lg:text-4xl md:text-3xl text-2xl font-medium">
-              Advanced Steel Design & Data Fusion
+      <div className="relative w-full min-h-[50vh] md:min-h-[92vh]">
+        <div className="absolute inset-0 w-full h-full bg-first-bg bg-cover md:bg-fixed bg-center"></div>
+        <div className="absolute inset-0 bg-[rgba(89,120,148,0.5)] w-full md:w-1/3 min-h-full flex justify-center md:justify-end items-center">
+          <div className="slide-right md:animate-[gotoRight_0.7s_ease-in-out_both] animate-[gotoDown_0.7s_ease-in-out_both] mx-4 md:mr-[110px] mb-[280px] md:mb-[0px]">
+            <h1 className="lg:text-4xl md:text-3xl text-2xl font-semibold text-center md:text-left">
+              Data Driven Material Design
             </h1>
-            <h1 className="lg:text-4xl md:text-3xl text-2xl font-medium">
+            <h1 className="lg:text-3xl md:text-2xl text-2xl font-semibold text-center md:text-left">
               Lab
             </h1>
           </div>
@@ -18,7 +18,7 @@ function MainPage() {
       <div className="w-full h-[50vh] flex justify-between">
         <div className="bg-dark w-1/3 h-[50vh] flex justify-center items-center">
           <div className="mb-14">
-            <h1 className="border-b border-white pb-10 mb-10 lg:text-4xl text-3xl text-white">
+            <h1 className="border-b border-white pb-10 mb-10 lg:text-4xl text-2xl text-white">
               Our Story
             </h1>
             <a
@@ -36,19 +36,15 @@ function MainPage() {
             <h3 className="lg:text-lg md:text-base text-sm">
               Our Lab focuses on improving the properties of magnetic materials,
               such as steel cores, which are essential in advanced mobility
-              applications. We conduct research on vacuum and gas heat
-              treatments, analyze magnetic properties, and evaluate texture and
-              rolling characteristics. Additionally, we develop new materials by
-              optimizing various processes using AI and predicting material
-              properties through metal material simulations.
+              applications.
             </h3>
           </div>
         </div>
       </div>
 
-      <div className="w-full h-[50vh] bg-second-bg bg-cover bg-fixed flex justify-center items-end">
-        <div className="w-1/2 h-[30%] flex justify-center items-center bg-white">
-          <span className="text-3xl text-dark">Our Work</span>
+      <div className="w-full min-h-[50vh] bg-second-bg bg-cover md:bg-fixed bg-center flex justify-center items-end">
+        <div className="w-4/5 md:w-1/2 h-[30%] flex justify-center items-center bg-white">
+          <span className="text-2xl md:text-3xl text-dark">Our Work</span>
         </div>
       </div>
 
@@ -75,10 +71,39 @@ function MainPage() {
         </div>
       </div>
 
-      <div className="w-full h-full flex justify-center items-center clex-col my-20">
+      <div className="w-full h-full flex justify-center items-center clex-col my-20 mb-32">
         <div className="w-4/5 max-w-[1440px]">
           <div className="text-5xl mb-4">Our research areas</div>
           <div className="grid md:grid-cols-2 grid-cols-1 gap-y-32">
+            <div className="w-11/12 h-11/12 p-4">
+              <img
+                className="w-full h-full object-cover rounded-xl"
+                src="/images/our_work(5).jpg"
+                alt=""
+              />
+              <div className="mt-1.5">
+                <div className="text-3xl mt-1.5 flex items-center">
+                  Pandat Thermodynamic Simulation
+                  {/* <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={1.5}
+                    stroke="currentColor"
+                    className="size-6 ml-2"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                    />
+                  </svg> */}
+                </div>
+                <div className="mt-1">
+                  Predicting the Thermodynamic Behavior of Materials with Pandat
+                </div>
+              </div>
+            </div>
             <div className="w-11/12 h-11/12 p-4">
               <img
                 className="w-full h-full object-cover rounded-xl"
@@ -88,7 +113,7 @@ function MainPage() {
               <div className="mt-1.5">
                 <div className="text-3xl mt-1.5 flex items-center">
                   3D Printing for AM Metal
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -101,12 +126,14 @@ function MainPage() {
                       strokeLinejoin="round"
                       d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                     />
-                  </svg>
+                  </svg> */}
                 </div>
-                <div className="mt-1">asdfsadfasdfasdf</div>
+                <div className="mt-1">
+                  Manufacturing electrical steel sheets through 3D printing
+                </div>
               </div>
             </div>
-            <div className="w-11/12 h-11/12 p-4">
+            <div className="w-11/12 h-5/6 p-4">
               <img
                 className="w-full h-full object-cover rounded-xl"
                 src="/images/our_work(2).jpg"
@@ -115,7 +142,7 @@ function MainPage() {
               <div className="mt-1.5">
                 <div className="text-3xl mt-1.5 flex items-center">
                   GO / NO Steel properties
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -128,9 +155,11 @@ function MainPage() {
                       strokeLinejoin="round"
                       d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                     />
-                  </svg>
+                  </svg> */}
                 </div>
-                <div className="mt-1">asdfsadfasdfasdf</div>
+                <div className="mt-1">
+                  Optimizing the properties of electrical steel sheets
+                </div>
               </div>
             </div>
             <div className="w-11/12 h-5/6 p-4">
@@ -142,7 +171,7 @@ function MainPage() {
               <div className="mt-1.5">
                 <div className="text-3xl mt-1.5 flex items-center">
                   AI Optimized
-                  <svg
+                  {/* <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
                     viewBox="0 0 24 24"
@@ -155,16 +184,18 @@ function MainPage() {
                       strokeLinejoin="round"
                       d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                     />
-                  </svg>
+                  </svg> */}
                 </div>
-                <div className="mt-1">asdfsadfasdfasdf</div>
+                <div className="mt-1">
+                  AI optimization with material property data
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="w-full h-full flex bg-[rgb(228,240,255)]">
+      {/* <div className="w-full h-full flex bg-[rgb(228,240,255)]">
         <div className="w-1/2 h-full">
           <img src="/images/ai_and_material.webp" alt="" />
         </div>
@@ -173,7 +204,7 @@ function MainPage() {
         </div>
       </div>
 
-      <div className="w-full h-[100vh] bg-white"></div>
+      <div className="w-full h-[100vh] bg-white"></div> */}
     </div>
   );
 }

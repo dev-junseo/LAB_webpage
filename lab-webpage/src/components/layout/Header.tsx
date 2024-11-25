@@ -55,7 +55,7 @@ function Header() {
                   <a href="#">PROJECT</a>
                 </li>
                 <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="#">DEPARTMENT</a>
+                  <a href="#">GALLERY</a>
                 </li>
               </ul>
             </nav>
@@ -75,7 +75,7 @@ function Header() {
                       <a href="/about/Members">MEMBERS</a>
                     </li>
                     <li className="flex justify-center items-center h-[54px]">
-                      <a href="/about/Location">Location</a>
+                      <a href="/about/Location">LOCATION</a>
                     </li>
                   </ul>
                 </li>
@@ -83,7 +83,7 @@ function Header() {
                   <a href="#">PROJECT</a>
                 </li>
                 <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="#">DEPARTMENT</a>
+                  <a href="#">GALLERY</a>
                 </li>
               </ul>
             </nav>
@@ -143,16 +143,16 @@ function Header() {
                     ABOUT
                   </a>
                   <ul className="ml-8">
-                    <li className="mt-1.5">
+                    <li className="mt-3">
                       <a href="/about/Overview">Overview</a>
                     </li>
-                    <li className="mt-1.5">
-                      <a href="/about/Pi">Pi</a>
+                    <li className="mt-3">
+                      <a href="/about/Pi">Leader</a>
                     </li>
-                    <li className="mt-1.5">
+                    <li className="mt-3">
                       <a href="/about/Members">Members</a>
                     </li>
-                    <li className="mt-1.5">
+                    <li className="mt-3">
                       <a href="/about/Location">Location</a>
                     </li>
                   </ul>
@@ -164,7 +164,7 @@ function Header() {
                 </li>
                 <li className="py-4 border-b border-border">
                   <a href="#" className="text-xl ml-5">
-                    DEPARTMENT
+                    GALLERY
                   </a>
                 </li>
               </ul>

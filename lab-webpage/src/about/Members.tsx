@@ -3,46 +3,39 @@ import MembersProfile from "../components/MembersProfile";
 function Members() {
   const MemebersInfo = [
     {
-      name: "Kim Hyeon Ah(김현아)",
-      profileImg: "/images/member-profile.png",
+      name: "Kim Hyeon A(김현아)",
+      profileImg: "/images/profile.jpg",
       edu: "Combined B.S./M.S.",
       major: "Department of Materials System",
-      email: "~~~@pukyong.ac.kr",
-    },
-    {
-      name: "Oh Su Bin(오수빈)",
-      profileImg: "/images/member-profile.png",
-      edu: "Combined B.S./M.S.",
-      major: "Department of Materials System",
-      email: "~~~@pukyong.ac.kr",
+      email: "vikivikilove@naver.com",
     },
     {
       name: "Oh Ji Eun(오지은)",
-      profileImg: "/images/member-profile.png",
+      profileImg: "/images/profile.jpg",
       edu: "Combined B.S./M.S.",
       major: "Department of Materials System",
-      email: "~~~@pukyong.ac.kr",
+      email: "oje021025@naver.com",
     },
     {
       name: "Ha Jun Seo(하준서)",
-      profileImg: "/images/member-profile.png",
+      profileImg: "/images/profile.jpg",
       edu: "Combined B.S./M.S.",
       major: "Department of Materials System",
       email: "202130292@pukyong.ac.kr",
     },
     {
       name: "Go Eun Su(고은수)",
-      profileImg: "/images/member-profile.png",
+      profileImg: "/images/profile.jpg",
       edu: "Undergraduate",
       major: "Department of Materials System",
-      email: "~~~@pukyong.ac.kr",
+      email: "esko8119@naver.com",
     },
     {
       name: "Yu Min Sang(유민상)",
-      profileImg: "/images/member-profile.png",
+      profileImg: "/images/profile.jpg",
       edu: "Undergraduate",
       major: "Department of Materials System",
-      email: "~~~@pukyong.ac.kr",
+      email: "poi4064@naver.com",
     },
   ];
 

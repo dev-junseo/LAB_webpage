@@ -3,7 +3,7 @@ import "./App.css";
 import MainPage from "./main/Mainpage";
 import Overview from "./about/Overview";
 import Location from "./about/Location";
-import Pi from "./about/Pi";
+import Leader from "./about/Leader";
 import Members from "./about/Members";
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/about/Overview" element={<Overview />} />
-        <Route path="/about/Pi" element={<Pi />} />
+        <Route path="/about/Pi" element={<Leader />} />
         <Route path="/about/Location" element={<Location />} />
         <Route path="/about/Members" element={<Members />} />
       </Routes>

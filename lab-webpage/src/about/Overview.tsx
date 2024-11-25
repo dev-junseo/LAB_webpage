@@ -40,9 +40,7 @@ function Overview() {
                     Introduce
                   </div>
                   <div className="ml-2">
-                    <b className="ml-2">
-                      Advanced Steel Design & Data Fusion Lab
-                    </b>{" "}
+                    <b className="ml-2">Data Driven Material Design Lab</b>{" "}
                     focuses on improving the properties of magnetic materials,
                     such as steel cores, which are essential in advanced
                     mobility applications. We conduct research on vacuum and gas
