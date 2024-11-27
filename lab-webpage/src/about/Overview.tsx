@@ -1,5 +1,3 @@
-import Submenu from "../components/layout/Submenu";
-
 function Overview() {
   return (
     <div>
