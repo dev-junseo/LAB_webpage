@@ -52,10 +52,10 @@ function Header() {
                   <a href="/about/Overview">ABOUT</a>
                 </li>
                 <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="#">PROJECT</a>
+                  <a href="/project/Project">PROJECT</a>
                 </li>
                 <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="#">GALLERY</a>
+                  <a href="/gallery/Gallery">GALLERY</a>
                 </li>
               </ul>
             </nav>
@@ -80,10 +80,10 @@ function Header() {
                   </ul>
                 </li>
                 <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="#">PROJECT</a>
+                  <a href="/project/Project">PROJECT</a>
                 </li>
                 <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="#">GALLERY</a>
+                  <a href="/gallery/Gallery">GALLERY</a>
                 </li>
               </ul>
             </nav>
@@ -158,12 +158,12 @@ function Header() {
                   </ul>
                 </li>
                 <li className="py-4 border-b border-border">
-                  <a href="#" className="text-xl ml-5">
+                  <a href="/project/Project" className="text-xl ml-5">
                     PROJECT
                   </a>
                 </li>
                 <li className="py-4 border-b border-border">
-                  <a href="#" className="text-xl ml-5">
+                  <a href="/gallery/Gallery" className="text-xl ml-5">
                     GALLERY
                   </a>
                 </li>

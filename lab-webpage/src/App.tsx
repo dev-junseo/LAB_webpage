@@ -5,6 +5,8 @@ import Overview from "./about/Overview";
 import Location from "./about/Location";
 import Leader from "./about/Leader";
 import Members from "./about/Members";
+import Project from "./project/Project";
+import Gallery from "./gallery/Gallery";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/about/Pi" element={<Leader />} />
         <Route path="/about/Location" element={<Location />} />
         <Route path="/about/Members" element={<Members />} />
+        <Route path="/project/Project" element={<Project />} />
+        <Route path="/gallery/Gallery" element={<Gallery />} />
       </Routes>
     </div>
   );

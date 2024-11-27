@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="w-full h-20 bg-white block mt-32 flex flex-col md:flex-row justify-around items-center mb-20">
+    <div className="w-full bg-white block mt-32 flex flex-col md:flex-row justify-around items-center mb-20">
       <div className="ml-10">
         <div className="text-xl">Data Driven Material Design Lab @PKNU</div>
         <div className="text-xl mb-5">
