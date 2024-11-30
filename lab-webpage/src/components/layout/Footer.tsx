@@ -14,6 +14,12 @@ function Footer() {
         <div className="mb-5">Office Engeneering 1 Building 1001</div>
         <div>Phone : +82-51-629-6378</div>
         <div>Email : newtain@pknu.ac.kr</div>
+        <div className="text-my_name">
+          made by{" "}
+          <a className="underline" href="/about/Members">
+            @Ha Jun Seo
+          </a>
+        </div>
       </div>
       <div className="mr-10 md:mt-0 mt-10">
         <a href="https://info.flagcounter.com/0UwV" className="">

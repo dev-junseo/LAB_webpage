@@ -54,6 +54,7 @@ module.exports = {
       border: "#b6b6b6",
       borderA: "rgb(5, 5, 5, 0.3)",
       title: "#00305b",
+      my_name: "rgb(156 163 175)",
     },
   },
   plugins: [],
