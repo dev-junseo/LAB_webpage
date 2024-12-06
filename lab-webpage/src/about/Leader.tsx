@@ -39,7 +39,7 @@ export default function ProfilePage() {
                     />
                   </svg>
 
-                  <span>newtain@kakao.com</span>
+                  <span>newtain@pknu.ac.kr</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <svg
