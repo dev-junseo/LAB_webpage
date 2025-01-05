@@ -21,7 +21,7 @@ function Members() {
       profileImg: "/images/profile.jpg",
       edu: "Combined B.S./M.S.",
       major: "Department of Materials System",
-      email: "202130292@pukyong.ac.kr",
+      email: "hjs081435@pukyong.ac.kr",
     },
     {
       name: "Go Eun Su(고은수)",
