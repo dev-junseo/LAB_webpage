@@ -11,7 +11,7 @@ function Members() {
     },
     {
       name: "Oh Ji Eun(오지은)",
-      profileImg: "/images/profile.jpg",
+      profileImg: "/images/OJE_profile.jpg",
       edu: "Combined B.S./M.S.",
       major: "Department of Materials System",
       email: "oje021025@naver.com",
