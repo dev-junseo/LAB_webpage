@@ -4,7 +4,7 @@ function Members() {
   const MemebersInfo = [
     {
       name: "Kim Hyeon A(김현아)",
-      profileImg: "/images/profile.jpg",
+      profileImg: "/images/KHA_profile.jpg",
       edu: "Combined B.S./M.S.",
       major: "Department of Materials System",
       email: "vikivikilove@naver.com",
@@ -18,21 +18,21 @@ function Members() {
     },
     {
       name: "Ha Jun Seo(하준서)",
-      profileImg: "/images/profile.jpg",
+      profileImg: "/images/HJS_profile.jpg",
       edu: "Combined B.S./M.S.",
       major: "Department of Materials System",
-      email: "hjs081435@pukyong.ac.kr",
+      email: "hjs081435@gmail.com",
     },
     {
       name: "Go Eun Su(고은수)",
-      profileImg: "/images/profile.jpg",
+      profileImg: "/images/GES_profile.jpg",
       edu: "Undergraduate",
       major: "Department of Materials System",
       email: "esko8119@naver.com",
     },
     {
       name: "Yu Min Sang(유민상)",
-      profileImg: "/images/profile.jpg",
+      profileImg: "/images/UMS_profile.png",
       edu: "Undergraduate",
       major: "Department of Materials System",
       email: "poi4064@naver.com",
