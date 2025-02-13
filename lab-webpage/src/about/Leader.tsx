@@ -62,7 +62,13 @@ export default function ProfilePage() {
               </div>
             </div>
           </div>
-          <div className="flex justify-around items-center md:flex-row flex-col">
+          <div className="flex justify-around items-center lg:flex-row flex-col">
+            <img
+              className="w-[300px] h-[200px]"
+              src="/images/PKNU_logo.svg"
+              alt=""
+            />
+
             <img
               className="w-[300px] h-[150px]"
               src="/images/posco-logo.png"
@@ -99,7 +105,7 @@ export default function ProfilePage() {
             <div className="space-y-6">
               <div>
                 <h3 className="text-xl font-semibold">
-                  Pohang University of Science and Technology
+                  {"POSTECH(Pohang University of science and technology)"}
                 </h3>
                 <p className="text-gray-600">
                   Ph.D. in Graduate Institute of Ferrous & Energy Materials
@@ -110,7 +116,7 @@ export default function ProfilePage() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold">
-                  Pohang University of Science and Technology
+                  {"POSTECH(Pohang University of science and technology)"}
                 </h3>
                 <p className="text-gray-600">
                   M.S. in Graduate Institute of Ferrous & Energy Materials
@@ -120,7 +126,7 @@ export default function ProfilePage() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold">
-                  Pohang University of Science and Technology
+                  {"POSTECH(Pohang University of science and technology)"}
                 </h3>
                 <p className="text-gray-600">
                   B.S. in Department of Materials Science and Engineering
@@ -188,7 +194,7 @@ export default function ProfilePage() {
                   d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25"
                 />
               </svg>
-              Recent Publications (SCIE, 2023)
+              Recent Publications (within 5 years)
             </h2>
             <div className="space-y-6">
               {[
@@ -267,11 +273,11 @@ export default function ProfilePage() {
               </h3>
               <div className="space-y-4">
                 {[
-                  "PCT/KR2020/017973 (출원번호) CN, EP, JP, US 방향성 전기강판 및 그 자구미세화 방법",
-                  "PCT/KR19/018033 JP, EP, CN, US 방향성 전기강판 및 그의 제조 방법",
-                  "PCT/KR2019/06220 JP, EP, CN, US 방향성 전기강판 및 그 자구미세화 방법",
-                  "PCT/KR2018/16037 CN, DE, EP, FR, GB, JP 방향성 전기강판 및 그 자구미세화 방법",
-                  "PCT/KR17/015204 JP, CN, US 방향성 전기강판 및 그 자구미세화 방법",
+                  "PCT/KR2020/017973 CN, EP, JP, US Grain-oriented electrical steel and its magnetic domain refinement method",
+                  "PCT/KR19/018033 JP, EP, CN, US Grain-oriented electrical steel and its manufacturing method",
+                  "PCT/KR2019/06220 JP, EP, CN, US Grain-oriented electrical steel and its magnetic domain refinement method",
+                  "PCT/KR2018/16037 CN, DE, EP, FR, GB, JP Grain-oriented electrical steel and its magnetic domain refinement method",
+                  "PCT/KR17/015204 JP, CN, US Grain-oriented electrical steel and its magnetic domain refinement method",
                 ].map((patent, index) => (
                   <div key={index} className="p-4 bg-gray-50 rounded-lg">
                     <p className="text-gray-800">{patent}</p>
@@ -287,11 +293,11 @@ export default function ProfilePage() {
               </h3>
               <div className="space-y-4">
                 {[
-                  "2020-0179368, 2438476, 소음 특성이 우수한 방향성 전기강판",
-                  "2020-0177989, 2462682, 소음이 우수한 방향성 전기강판",
-                  "2019-0171286, 2276850, 자성이 우수한 자구 미세화 방향성 전기강판 공정",
-                  "2019-0172496, 2395230, 자성이 우수한 일시자구 미세화 방향성 전기강판 공정",
-                  "2018-0165650, 10-2162984, 전기강판 영구자구미세화 고도화 공정",
+                  "2020-0179368, 2438476, Grain-oriented electrical steel with superior noise characteristics",
+                  "2020-0177989, 2462682, Grain-oriented electrical steel with superior noise characteristics",
+                  "2019-0171286, 2276850, Process for magnetic domain refined grain-oriented electrical steel with superior magnetic properties",
+                  "2019-0172496, 2395230, Process for temporary magnetic domain refined grain-oriented electrical steel with superior magnetic properties",
+                  "2018-0165650, 10-2162984, Advanced process for permanent magnetic domain refinement of electrical steel",
                 ].map((patent, index) => (
                   <div key={index} className="p-4 bg-gray-50 rounded-lg">
                     <p className="text-gray-800">{patent}</p>
@@ -310,11 +316,11 @@ export default function ProfilePage() {
               </h3>
               <div className="space-y-4">
                 {[
-                  "PCT/KR17/015127 권오열 방향성 전기강판 및 그 자구미세화 방법",
-                  "PCT/KR17/015128 권오열 방향성 전기강판의 자구미세화 방법",
-                  "PCT/KR17/015205 권민석 방향성 전기강판용 소둔 분리제 조성물, 방향성 전기강판 및 방향성 전기강판의 제조방법",
-                  "PCT/KR19/12027 홍성철 이물질 포집장치 및 이를 포함하는 전기강판 제조설비",
-                  "PCT/KR19/17445 홍성철 이물질제거자치 및 이를 포함하는 전기강판 제조설비",
+                  "PCT/KR17/015127 권오열 Grain-oriented electrical steel and its magnetic domain refinement method",
+                  "PCT/KR17/015128 권오열 Magnetic domain refinement method for grain-oriented electrical steel",
+                  "PCT/KR17/015205 권민석 Annealing separator composition for grain-oriented electrical steel, grain-oriented electrical steel and manufacturing method thereof",
+                  "PCT/KR19/12027 홍성철 Foreign material trapping device and electrical steel manufacturing equipment including the same",
+                  "PCT/KR19/17445 홍성철 Foreign material removal device and electrical steel manufacturing equipment including the same",
                 ].map((patent, index) => (
                   <div key={index} className="p-4 bg-gray-50 rounded-lg">
                     <p className="text-gray-800">{patent}</p>
@@ -350,53 +356,12 @@ export default function ProfilePage() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {[
-                "Thermalcalc (phase transformation)",
-                "Dictra (diffusion)",
+                "Pandat (phase transformation, diffusion, phase field)",
                 "OIM (texture analysis)",
-                "Inventor (3d CAD)",
-                "JMAG (magnetic field and motor)",
-                "Abaqus (strain stress)",
-                "Comsol",
                 "AI machine learning & optimization",
               ].map((skill) => (
                 <div key={skill} className="bg-gray-50 p-3 rounded">
                   {skill}
-                </div>
-              ))}
-            </div>
-          </CardContent>
-        </Card>
-
-        {/* Language Skills */}
-        <Card className="mb-8">
-          <CardContent className="p-6">
-            <h2 className="text-2xl font-bold mb-6 flex items-center gap-2 text-title">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={1.5}
-                stroke="currentColor"
-                className="size-6"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M12 21a9.004 9.004 0 0 0 8.716-6.747M12 21a9.004 9.004 0 0 1-8.716-6.747M12 21c2.485 0 4.5-4.03 4.5-9S14.485 3 12 3m0 18c-2.485 0-4.5-4.03-4.5-9S9.515 3 12 3m0 0a8.997 8.997 0 0 1 7.843 4.582M12 3a8.997 8.997 0 0 0-7.843 4.582m15.686 0A11.953 11.953 0 0 1 12 10.5c-2.998 0-5.74-1.1-7.843-2.918m15.686 0A8.959 8.959 0 0 1 21 12c0 .778-.099 1.533-.284 2.253m0 0A17.919 17.919 0 0 1 12 16.5c-3.162 0-6.133-.815-8.716-2.247m0 0A9.015 9.015 0 0 1 3 12c0-1.605.42-3.113 1.157-4.418"
-                />
-              </svg>
-              Language Skills
-            </h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              {[
-                { lang: "English", level: "OPIC IH (7급)" },
-                { lang: "Japanese", level: "OPIC IH (7급)" },
-                { lang: "Chinese", level: "OPIC NH (4급)" },
-                { lang: "Spanish", level: "OPIC NH (4급)" },
-              ].map((lang) => (
-                <div key={lang.lang} className="bg-gray-50 p-4 rounded">
-                  <h3 className="font-semibold">{lang.lang}</h3>
-                  <p className="text-gray-600">{lang.level}</p>
                 </div>
               ))}
             </div>
@@ -425,16 +390,25 @@ export default function ProfilePage() {
             </h2>
             <div className="space-y-4">
               <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-semibold">포스코기술대상</h3>
+                <h3 className="font-semibold">
+                  Pandat education trainer in south korea
+                </h3>
+                <p className="text-gray-600">(Jan. 2025)</p>
+              </div>
+              <div className="p-4 bg-gray-50 rounded-lg">
+                <h3 className="font-semibold">POSCO Technology Award</h3>
                 <p className="text-gray-600">
-                  방향성 전기강판 자구미세화 양산개발 POSCO, Korea (Aug. 2018)
+                  Grain-oriented electrical steel magnetic domain refinement
+                  mass production development POSCO, Korea (Aug. 2018)
                 </p>
               </div>
               <div className="p-4 bg-gray-50 rounded-lg">
-                <h3 className="font-semibold">포스코연구소장표창</h3>
+                <h3 className="font-semibold">
+                  POSCO Research Institute Director Citation
+                </h3>
                 <p className="text-gray-600">
-                  영구자구미세화 23PHE080 양산제품 개발, POSCO, Korea (Dec.
-                  2018)
+                  Permanent magnetic domain refinement 23PHE080 mass production
+                  development, POSCO, Korea (Dec. 2018)
                 </p>
               </div>
             </div>
