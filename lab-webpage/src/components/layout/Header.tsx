@@ -55,7 +55,10 @@ function Header() {
                   <a href="/project/Project">PROJECT</a>
                 </li>
                 <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="/gallery/Gallery">GALLERY</a>
+                  <a href="/facilities/Facilities">FACILITIES</a>
+                </li>
+                <li className="flex w-32 h-10 justify-center items-center">
+                  <a href="/gallery/Gallery">ACTIVITIES</a>
                 </li>
               </ul>
             </nav>
@@ -79,11 +82,21 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                <li className="flex w-32 h-10 justify-center items-center">
+                <li className="flex w-32 h-12 justify-center items-center">
                   <a href="/project/Project">PROJECT</a>
                 </li>
-                <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="/gallery/Gallery">GALLERY</a>
+                <li className="flex w-32 h-12 justify-center items-center">
+                  <a href="/facilities/Facilities">FACILITIES</a>
+                </li>
+                <li className="flex w-32 h-10 justify-center items-start">
+                  <ul className="flex flex-col justify-center items-center">
+                    <li className="flex justify-center items-center h-[54px]">
+                      <a href="/activities/News">NEWS</a>
+                    </li>
+                    <li className="flex justify-center items-center h-[54px]">
+                      <a href="/activities/Gallery">GALLERY</a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </nav>
@@ -163,9 +176,22 @@ function Header() {
                   </a>
                 </li>
                 <li className="py-4 border-b border-border">
-                  <a href="/gallery/Gallery" className="text-xl ml-5">
-                    GALLERY
+                  <a href="/facilities/Facilities" className="text-xl ml-5">
+                    FACILITIES
                   </a>
+                </li>
+                <li className="py-4 border-b border-border">
+                  <a href="/gallery/Gallery" className="text-xl ml-5">
+                    ACTIVITIES
+                  </a>
+                  <ul className="ml-8">
+                    <li className="mt-3">
+                      <a href="/activities/News">NEWS</a>
+                    </li>
+                    <li className="mt-3">
+                      <a href="/activities/Gallery">GALLERY</a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
             </nav>

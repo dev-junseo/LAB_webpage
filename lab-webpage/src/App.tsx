@@ -6,7 +6,9 @@ import Location from "./about/Location";
 import Leader from "./about/Leader";
 import Members from "./about/Members";
 import Project from "./project/Project";
-import Gallery from "./gallery/Gallery";
+import Gallery from "./activities/Gallery";
+import Facilities from "./facilities/Facilities";
+import News from "./activities/News";
 
 function App() {
   return (
@@ -18,7 +20,9 @@ function App() {
         <Route path="/about/Location" element={<Location />} />
         <Route path="/about/Members" element={<Members />} />
         <Route path="/project/Project" element={<Project />} />
-        <Route path="/gallery/Gallery" element={<Gallery />} />
+        <Route path="/facilities/Facilities" element={<Facilities />} />
+        <Route path="/activities/News" element={<News />} />
+        <Route path="/activities/Gallery" element={<Gallery />} />
       </Routes>
     </div>
   );
