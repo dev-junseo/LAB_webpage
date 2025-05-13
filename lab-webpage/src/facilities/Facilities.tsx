@@ -28,14 +28,49 @@ function Facilities() {
                       d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
                     />
                   </svg>
-                  집합조직
+                  Microstructure and Texture
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <img
-                    className="w-full h-full object-cover rounded-md"
-                    src="/images/EBSD.jpg"
-                    alt=""
-                  />
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[240px] h-[320px] object-cover rounded-md mb-2"
+                      src="/images/EBSD.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">EBSD</div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
+                      src="/images/electro polish.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">Electrolytic Polisher</div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
+                      src="/images/auto polisher.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">Auto Polishing Machine</div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
+                      src="/images/mounting.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">Mounting Machine</div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
+                      src="/images/OM.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">Optical Microscope</div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -56,14 +91,27 @@ function Facilities() {
                       d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
                     />
                   </svg>
-                  {"가스 열처리 (수소 탈탄 및 확산)"}
+                  {"FURNACE"}
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <img
-                    className="w-full h-full object-cover rounded-md"
-                    src="/images/열처리.jpg"
-                    alt=""
-                  />
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[288px] h-[326px] object-cover rounded-md mb-2"
+                      src="/images/열처리.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">
+                      {"Gas Furnace (H decarbonization & diffusion)"}
+                    </div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[288px] h-[326px] object-cover rounded-md mb-2"
+                      src="/images/heat furnace.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">Heat Furnace</div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -87,28 +135,51 @@ function Facilities() {
                   3D Printing 및 재질 결함 분석
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <img
-                    className="w-full h-full object-cover rounded-md"
-                    src="/images/3D_CT.jpg"
-                    alt=""
-                  />
-                  <div className="flex justify-center items-center flex-col">
+                  <div className="flex flex-col items-center">
                     <img
-                      className="w-1/2 h-1/2 object-cover rounded-md mb-4"
+                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
+                      src="/images/3D_CT.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">3D CT</div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[150px] h-[150px] object-cover rounded-md mb-4"
                       src="/images/재질결함분석1.jpg"
                       alt=""
                     />
                     <img
-                      className="w-1/2 h-1/2 object-cover rounded-md"
+                      className="w-[150px] h-[150px] object-cover rounded-md"
                       src="/images/재질결함분석2.jpg"
                       alt=""
                     />
+                    <div className="font-bold">재질결함분석</div>
                   </div>
-                  <img
-                    className="w-full h-full object-cover rounded-md"
-                    src="/images/인장시험기.png"
-                    alt=""
-                  />
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
+                      src="/images/인장시험기.png"
+                      alt=""
+                    />
+                    <div className="font-bold">인장시험기기</div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[400px] h-[300px] object-cover rounded-md mb-2"
+                      src="/images/3D profiler.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">3D Profiler</div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
+                      className="w-[300px] h-[300px] object-cover rounded-md mb-2"
+                      src="/images/3D_CT.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">Mini SEM</div>
+                  </div>
                 </div>
               </CardContent>
             </Card>
@@ -131,15 +202,20 @@ function Facilities() {
                   </svg>
                   시뮬레이션
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 flex items-center">
                   <img
-                    className="w-full h-full object-cover rounded-md"
+                    className="w-[394px] h-[130px] object-cover rounded-md"
                     src="/images/pandat_1.png"
                     alt=""
                   />
                   <img
-                    className="w-full h-full object-cover rounded-md"
-                    src="/images/pandat_2.png"
+                    className="w-[310px] h-[130px] object-cover rounded-md"
+                    src="/images/oim_logo.webp"
+                    alt=""
+                  />
+                  <img
+                    className="w-[305px] h-[165px] object-cover rounded-md"
+                    src="/images/python_ai.jpg"
                     alt=""
                   />
                 </div>

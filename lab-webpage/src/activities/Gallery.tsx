@@ -1,4 +1,25 @@
+import GalleryBox from "../components/GalleryBox";
+
 function Gallery() {
+  const GalleryInfo = [
+    {
+      img: "/images/pomia.jpg",
+      comments: "(Fev 2025)_Technology Exchange Meeting with POMIA",
+    },
+    {
+      img: "/images/CALPAD_PANDAT_seminar.jpg",
+      comments: "(Jan 2025)_CALPAD Pandat Seminar",
+    },
+    {
+      img: "/images/2024_magnetic.jpg",
+      comments:
+        "(Nov 2024)_2024 KMS Winter Conference_Soft Magentics Symposium",
+    },
+    {
+      img: "/images/2024_openlab.jpg",
+      comments: "(Nov 2024)_OPENLAB_Department of Materials System Engineering",
+    },
+  ];
   return (
     <div>
       <div className="mx-[10%] mt-12">
@@ -8,23 +29,10 @@ function Gallery() {
               <span>GALLERY</span>
             </div>
           </div>
-          <div className="grid lg:grid-cols-2 grid-cols-1">
-            <div className="w-[450px] h-[300px] mb-5 flex flex-col justify-center items-center">
-              <img
-                className="w-full h-full object-cover rounded-md mb-2"
-                src="/images/pomia.jpg"
-                alt=""
-              />
-              <div>{"(Fev 2025) Exchange meeting with POMIA "}</div>
-            </div>
-            <div className="w-[450px] h-[300px] mb-5 flex flex-col justify-center items-center">
-              <img
-                className="w-full h-full object-cover rounded-md mb-2"
-                src="/images/2024_magnetic.jpg"
-                alt=""
-              />
-              <div>{"(Fev 2025) Exchange meeting with POMIA "}</div>
-            </div>
+          <div className="flex items-center justify-center grid lg:grid-cols-2 grid-cols-1">
+            {GalleryInfo.map((info) => {
+              return <GalleryBox info={info} />;
+            })}
           </div>
         </div>
       </div>

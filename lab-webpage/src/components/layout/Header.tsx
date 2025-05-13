@@ -58,7 +58,7 @@ function Header() {
                   <a href="/facilities/Facilities">FACILITIES</a>
                 </li>
                 <li className="flex w-32 h-10 justify-center items-center">
-                  <a href="/gallery/Gallery">ACTIVITIES</a>
+                  <a href="/activities/Gallery">ACTIVITIES</a>
                 </li>
               </ul>
             </nav>
