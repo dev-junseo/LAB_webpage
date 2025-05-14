@@ -57,7 +57,7 @@ export default function ProfilePage() {
                     />
                   </svg>
 
-                  <span>{"+82) 01037283568"}</span>
+                  <span>{"+82) 1037283568"}</span>
                 </div>
               </div>
             </div>

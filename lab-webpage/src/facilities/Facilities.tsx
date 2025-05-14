@@ -41,12 +41,21 @@ function Facilities() {
                   </div>
                   <div className="flex flex-col items-center">
                     <img
+                      className="w-[300px] h-[300px] object-cover rounded-md mb-2"
+                      src="/images/mini SEM.jpg"
+                      alt=""
+                    />
+                    <div className="font-bold">Mini SEM</div>
+                  </div>
+                  <div className="flex flex-col items-center">
+                    <img
                       className="w-[300px] h-[320px] object-cover rounded-md mb-2"
                       src="/images/electro polish.jpg"
                       alt=""
                     />
                     <div className="font-bold">Electrolytic Polisher</div>
                   </div>
+
                   <div className="flex flex-col items-center">
                     <img
                       className="w-[300px] h-[320px] object-cover rounded-md mb-2"
@@ -96,7 +105,7 @@ function Facilities() {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   <div className="flex flex-col items-center">
                     <img
-                      className="w-[288px] h-[326px] object-cover rounded-md mb-2"
+                      className="w-[400px] h-[300px] object-cover rounded-md mb-2"
                       src="/images/열처리.jpg"
                       alt=""
                     />
@@ -171,14 +180,6 @@ function Facilities() {
                       alt=""
                     />
                     <div className="font-bold">3D Profiler</div>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[300px] h-[300px] object-cover rounded-md mb-2"
-                      src="/images/3D_CT.jpg"
-                      alt=""
-                    />
-                    <div className="font-bold">Mini SEM</div>
                   </div>
                 </div>
               </CardContent>
