@@ -1,6 +1,45 @@
 import Card, { CardContent } from "../components/Card";
+import FacilityBoxMd from "../components/FacilityBoxMd";
 
 function Facilities() {
+  const MicrostructureandTexture = [
+    {
+      img: "/images/EBSD.jpg",
+      name: "EBSD",
+    },
+    {
+      img: "/images/mini SEM.jpg",
+      name: "Mini SEM",
+    },
+    {
+      img: "/images/electro polish.jpg",
+      name: "Electrolytic Polisher",
+    },
+    {
+      img: "/images/auto polisher.jpg",
+      name: "Auto Polishing Machine",
+    },
+    {
+      img: "/images/mounting.jpg",
+      name: "Mounting Machine",
+    },
+    {
+      img: "/images/OM.jpg",
+      name: "Optical Microscope",
+    },
+  ];
+
+  const MaterialDefectAnalysis = [
+    {
+      img: "/images/3D_CT.jpg",
+      name: "3D CT",
+    },
+    {
+      img: "/images/인장시험기.png",
+      name: "인장시험기기",
+    },
+  ];
+
   return (
     <div>
       <div className="mx-[10%] mt-12">
@@ -31,55 +70,9 @@ function Facilities() {
                   Microstructure and Texture
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[240px] h-[320px] object-cover rounded-md mb-2"
-                      src="/images/EBSD.jpg"
-                      alt=""
-                    />
-                    <div className="font-bold">EBSD</div>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[300px] h-[300px] object-cover rounded-md mb-2"
-                      src="/images/mini SEM.jpg"
-                      alt=""
-                    />
-                    <div className="font-bold">Mini SEM</div>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
-                      src="/images/electro polish.jpg"
-                      alt=""
-                    />
-                    <div className="font-bold">Electrolytic Polisher</div>
-                  </div>
-
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
-                      src="/images/auto polisher.jpg"
-                      alt=""
-                    />
-                    <div className="font-bold">Auto Polishing Machine</div>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
-                      src="/images/mounting.jpg"
-                      alt=""
-                    />
-                    <div className="font-bold">Mounting Machine</div>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
-                      src="/images/OM.jpg"
-                      alt=""
-                    />
-                    <div className="font-bold">Optical Microscope</div>
-                  </div>
+                  {MicrostructureandTexture.map((info) => {
+                    return <FacilityBoxMd info={info} />;
+                  })}
                 </div>
               </CardContent>
             </Card>
@@ -100,7 +93,7 @@ function Facilities() {
                       d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
                     />
                   </svg>
-                  {"FURNACE"}
+                  Furnace
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   <div className="flex flex-col items-center">
@@ -115,7 +108,7 @@ function Facilities() {
                   </div>
                   <div className="flex flex-col items-center">
                     <img
-                      className="w-[288px] h-[326px] object-cover rounded-md mb-2"
+                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
                       src="/images/heat furnace.jpg"
                       alt=""
                     />
@@ -141,17 +134,12 @@ function Facilities() {
                       d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
                     />
                   </svg>
-                  3D Printing 및 재질 결함 분석
+                  3D Printing & Material Defect Analysis
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
-                      src="/images/3D_CT.jpg"
-                      alt=""
-                    />
-                    <div className="font-bold">3D CT</div>
-                  </div>
+                  {MaterialDefectAnalysis.map((info) => {
+                    return <FacilityBoxMd info={info} />;
+                  })}
                   <div className="flex flex-col items-center">
                     <img
                       className="w-[150px] h-[150px] object-cover rounded-md mb-4"
@@ -164,14 +152,6 @@ function Facilities() {
                       alt=""
                     />
                     <div className="font-bold">재질결함분석</div>
-                  </div>
-                  <div className="flex flex-col items-center">
-                    <img
-                      className="w-[300px] h-[320px] object-cover rounded-md mb-2"
-                      src="/images/인장시험기.png"
-                      alt=""
-                    />
-                    <div className="font-bold">인장시험기기</div>
                   </div>
                   <div className="flex flex-col items-center">
                     <img
@@ -201,7 +181,7 @@ function Facilities() {
                       d="M9.75 3.104v5.714a2.25 2.25 0 0 1-.659 1.591L5 14.5M9.75 3.104c-.251.023-.501.05-.75.082m.75-.082a24.301 24.301 0 0 1 4.5 0m0 0v5.714c0 .597.237 1.17.659 1.591L19.8 15.3M14.25 3.104c.251.023.501.05.75.082M19.8 15.3l-1.57.393A9.065 9.065 0 0 1 12 15a9.065 9.065 0 0 0-6.23-.693L5 14.5m14.8.8 1.402 1.402c1.232 1.232.65 3.318-1.067 3.611A48.309 48.309 0 0 1 12 21c-2.773 0-5.491-.235-8.135-.687-1.718-.293-2.3-2.379-1.067-3.61L5 14.5"
                     />
                   </svg>
-                  시뮬레이션
+                  Simulation
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 flex items-center">
                   <img
