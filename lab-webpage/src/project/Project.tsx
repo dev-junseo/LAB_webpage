@@ -13,10 +13,10 @@ function Project() {
               </h1>
             </div>
           </div>
-          <div className="w-[50%] bg-[rgb(110,149,192)] flex justify-center items-center">
+          <div className="w-[50%] bg-[rgb(97,120,161)] flex justify-center items-center">
             <img
               className="w-[285px] h-[244px] object-cover rounded-md mb-2"
-              src="/images/pandat_2.png"
+              src="/images/pandat_2(2).png"
               alt=""
             />
           </div>
