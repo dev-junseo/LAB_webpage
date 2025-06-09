@@ -82,9 +82,17 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                <li className="flex w-32 h-12 justify-center items-center">
-                  <a href="/project/Project">PROJECT</a>
+                <li className="flex w-32 h-10 justify-center items-start">
+                  <ul className="flex flex-col justify-center items-center">
+                    <li className="flex justify-center items-center h-[54px] text-center">
+                      <a href="/project/Research_Areas">RESEARCH AREAS</a>
+                    </li>
+                    <li className="flex justify-center items-center h-[54px]">
+                      <a href="/project/Project">PROJECT</a>
+                    </li>
+                  </ul>
                 </li>
+
                 <li className="flex w-32 h-12 justify-center items-center">
                   <a href="/facilities/Facilities">FACILITIES</a>
                 </li>
@@ -171,6 +179,16 @@ function Header() {
                   <a href="/project/Project" className="text-xl ml-5">
                     PROJECT
                   </a>
+                  <ul className="ml-8">
+                    <li className="mt-3">
+                      <a href="/project/Research_Areas">Research Areas</a>
+                    </li>
+                  </ul>
+                  <ul className="ml-8">
+                    <li className="mt-3">
+                      <a href="/project/Project">Project</a>
+                    </li>
+                  </ul>
                 </li>
                 <li className="py-4 border-b border-border">
                   <a href="/facilities/Facilities" className="text-xl ml-5">

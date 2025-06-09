@@ -3,6 +3,15 @@ import GalleryBox from "../components/GalleryBox";
 function Gallery() {
   const GalleryInfo = [
     {
+      img: "/images/2025_Calphad 학회.jpg",
+      comments:
+        "(May 2025)_International Conference on Computer Coupling of Phase Diagrams and Thermochemistry",
+    },
+    {
+      img: "/images/2025_pandat 미팅.jpg",
+      comments: "(May 2025)_Pandat Software Workshop",
+    },
+    {
       img: "/images/pomia.jpg",
       comments: "(Fev 2025)_Technology Exchange Meeting with POMIA",
     },

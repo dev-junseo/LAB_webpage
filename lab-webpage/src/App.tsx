@@ -9,6 +9,7 @@ import Project from "./project/Project";
 import Gallery from "./activities/Gallery";
 import Facilities from "./facilities/Facilities";
 import News from "./activities/News";
+import Research_areas from "./project/Research_area";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about/Pi" element={<Leader />} />
         <Route path="/about/Location" element={<Location />} />
         <Route path="/about/Members" element={<Members />} />
+        <Route path="/project/Research_Areas" element={<Research_areas />} />
         <Route path="/project/Project" element={<Project />} />
         <Route path="/facilities/Facilities" element={<Facilities />} />
         <Route path="/activities/News" element={<News />} />
