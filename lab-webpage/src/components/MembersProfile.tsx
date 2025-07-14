@@ -18,7 +18,7 @@ const MembersProfile = (info: InfoProps) => {
           alt=""
         />
       </div>
-      <div className="ml-4 mt-1 flex flex-col items-start">
+      <div className="ml-4 mt-1 flex flex-col items-start justify-center">
         <div className="mb-6 text-lg font-bold text-title flex items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -36,8 +36,8 @@ const MembersProfile = (info: InfoProps) => {
           </svg>
           {info.info.name}
         </div>
-        <div className="mb-6">{info.info.edu}</div>
-        <div className="mb-1">{info.info.major}</div>
+        <div className="mb-2">{info.info.edu}</div>
+        <div className="mb-2 text-start">{info.info.major}</div>
         <div className="">{info.info.email}</div>
       </div>
     </div>
