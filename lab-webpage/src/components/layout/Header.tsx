@@ -45,19 +45,20 @@ function Header() {
       </div>
       {isLarge ? (
         <div>
+          {/* PC mode */}
           <div className="peer h-20 flex items-center">
             <nav>
               <ul className="flex justify-end mr-12">
-                <li className="flex w-32 h-10 justify-center items-center">
+                <li className="flex w-36 h-10 justify-center items-center">
                   <a href="/about/Overview">ABOUT</a>
                 </li>
-                <li className="flex w-32 h-10 justify-center items-center">
+                <li className="flex w-36 h-10 justify-center items-center">
                   <a href="/project/Project">PROJECT</a>
                 </li>
-                <li className="flex w-32 h-10 justify-center items-center">
+                <li className="flex w-36 h-10 justify-center items-center">
                   <a href="/facilities/Facilities">FACILITIES</a>
                 </li>
-                <li className="flex w-32 h-10 justify-center items-center">
+                <li className="flex w-36 h-10 justify-center items-center">
                   <a href="/activities/Gallery">ACTIVITIES</a>
                 </li>
               </ul>
@@ -66,7 +67,7 @@ function Header() {
           <div className="w-full hidden h-56 bg-white absolute top-[30px] right-0 z-20 peer-hover:block hover:block border-b border-border animate-[gotoDownLow_0.4s_ease-in-out_both] ">
             <nav>
               <ul className="flex justify-end mr-12">
-                <li className="flex w-32 h-10 justify-center items-start">
+                <li className="flex w-36 h-10 justify-center items-start">
                   <ul className="flex flex-col justify-center items-center">
                     <li className="flex justify-center items-center h-[54px]">
                       <a href="/about/Overview">OVERVIEW</a>
@@ -82,10 +83,13 @@ function Header() {
                     </li>
                   </ul>
                 </li>
-                <li className="flex w-32 h-10 justify-center items-start">
+                <li className="flex w-36 h-10 justify-center items-start">
                   <ul className="flex flex-col justify-center items-center">
                     <li className="flex justify-center items-center h-[54px] text-center">
-                      <a href="/project/Research_Areas">RESEARCH AREAS</a>
+                      <a href="/project/MustReadPapers">MUST READ PAPERS</a>
+                    </li>
+                    <li className="flex justify-center items-center h-[54px] text-center">
+                      <a href="/project/ResearchAreas">RESEARCH AREAS</a>
                     </li>
                     <li className="flex justify-center items-center h-[54px]">
                       <a href="/project/Project">PROJECT</a>
@@ -93,10 +97,10 @@ function Header() {
                   </ul>
                 </li>
 
-                <li className="flex w-32 h-12 justify-center items-center">
+                <li className="flex w-36 h-12 justify-center items-center">
                   <a href="/facilities/Facilities">FACILITIES</a>
                 </li>
-                <li className="flex w-32 h-10 justify-center items-start">
+                <li className="flex w-36 h-10 justify-center items-start">
                   <ul className="flex flex-col justify-center items-center">
                     <li className="flex justify-center items-center h-[54px]">
                       <a href="/activities/Gallery">GALLERY</a>
@@ -109,7 +113,7 @@ function Header() {
         </div>
       ) : (
         <div className="">
-          {/* 햄버거 버튼 */}
+          {/* Mobile mode */}
           <button className="mr-5" onClick={toggleSidebar}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -181,7 +185,12 @@ function Header() {
                   </a>
                   <ul className="ml-8">
                     <li className="mt-3">
-                      <a href="/project/Research_Areas">Research Areas</a>
+                      <a href="/project/MustReadPapers">Must Read Papers</a>
+                    </li>
+                  </ul>
+                  <ul className="ml-8">
+                    <li className="mt-3">
+                      <a href="/project/ResearchAreas">Research Areas</a>
                     </li>
                   </ul>
                   <ul className="ml-8">

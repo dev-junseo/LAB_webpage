@@ -165,7 +165,7 @@ function MainPage() {
             <div className="w-11/12 h-5/6 p-4">
               <img
                 className="w-full h-full object-cover rounded-xl"
-                src="/images/our_work(3).webp"
+                src="/images/our_work(3).png"
                 alt=""
               />
               <div className="mt-1.5">
