@@ -3,6 +3,11 @@ import GalleryBox from "../components/GalleryBox";
 function Gallery() {
   const GalleryInfo = [
     {
+      img: "/images/교양공모전.jpg",
+      comments:
+        "(Aug 2025)_Winner of the GES/UMS Excellence Award in the Liberal Arts Subject Contest",
+    },
+    {
       img: "/images/2025_Calphad 학회.jpg",
       comments:
         "(May 2025)_International Conference on Computer Coupling of Phase Diagrams and Thermochemistry",
