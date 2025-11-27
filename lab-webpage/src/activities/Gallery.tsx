@@ -3,6 +3,10 @@ import GalleryBox from "../components/GalleryBox";
 function Gallery() {
   const GalleryInfo = [
     {
+      img: "/images/2025_magnetic.jpg",
+      comments: "(Nov 2025)_2025 KMS Winter Conference_Post Discussion",
+    },
+    {
       img: "/images/교양공모전.jpg",
       comments:
         "(Aug 2025)_Winner of the GES/UMS Excellence Award in the Liberal Arts Subject Contest",
