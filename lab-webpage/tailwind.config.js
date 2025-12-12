@@ -56,6 +56,7 @@ module.exports = {
       borderA: "rgb(5, 5, 5, 0.3)",
       title: "#00305b",
       my_name: "rgb(156 163 175)",
+      participate: "#bf9000",
     },
   },
   plugins: [],

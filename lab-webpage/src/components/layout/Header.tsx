@@ -103,6 +103,9 @@ function Header() {
                 <li className="flex w-36 h-10 justify-center items-start">
                   <ul className="flex flex-col justify-center items-center">
                     <li className="flex justify-center items-center h-[54px]">
+                      <a href="/activities/News">NEWS</a>
+                    </li>
+                    <li className="flex justify-center items-center h-[54px]">
                       <a href="/activities/Gallery">GALLERY</a>
                     </li>
                   </ul>
@@ -209,6 +212,9 @@ function Header() {
                     ACTIVITIES
                   </a>
                   <ul className="ml-8">
+                    <li className="mt-3">
+                      <a href="/activities/News">NEWS</a>
+                    </li>
                     <li className="mt-3">
                       <a href="/activities/Gallery">GALLERY</a>
                     </li>
