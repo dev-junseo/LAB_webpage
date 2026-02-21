@@ -3,8 +3,9 @@ import NewsBox from "../components/NewsBox";
 function News() {
   const news_2026 = [
     {
-      date: "",
-      comments: "",
+      date: "2026.02.12",
+      comments:
+        "RISE 1차년도 통합성과공유회에서 '재료 AI 최적화법을 활용한 고성능 모터코어용 초극박 확산형 전기강판 제조 기술 개발' 주제로 연구 우수사례로 선정되었습니다.",
     },
   ];
   const news_2025 = [
@@ -90,7 +91,7 @@ function News() {
             </div>
           </div>
           <div>
-            {/* <div className="w-full mb-32">
+            <div className="w-full mb-32">
               <div className="text-center text-[60px] mb-10 text-title border-b-2 border-b-title">
                 <div className="mb-4">2026</div>
               </div>
@@ -99,7 +100,7 @@ function News() {
                   return <NewsBox info={info} />;
                 })}
               </div>
-            </div> */}
+            </div>
             <div className="w-full mb-32">
               <div className="text-center text-[60px] mb-10 text-title border-b-2 border-b-title">
                 <div className="mb-4">2025</div>

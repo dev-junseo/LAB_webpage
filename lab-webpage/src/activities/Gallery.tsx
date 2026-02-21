@@ -3,6 +3,11 @@ import GalleryBox from "../components/GalleryBox";
 function Gallery() {
   const GalleryInfo = [
     {
+      img: "/images/2026_RISE_1차년도_통합성과공유회.jpg",
+      comments:
+        "(Fev 2026)_2026 RISE Business Group 1st Integration Performance Sharing Meeting",
+    },
+    {
       img: "/images/2025_magnetic.jpg",
       comments: "(Nov 2025)_2025 KMS Winter Conference_Post Discussion",
     },
