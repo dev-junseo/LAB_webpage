@@ -44,8 +44,11 @@ function Project() {
           </div>
 
           <CardHeader className="pb-4">
-            <CardTitle className="text-2xl text-blue-900 mb-2">
+            <CardTitle className="text-2xl text-blue-900 mb-2 flex items-center gap-3">
               모빌리티 소재, 요소부품 기술 개발
+              <span className="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full border border-green-200 shadow-sm">
+                Done
+              </span>
             </CardTitle>
             <p className="text-lg font-medium text-gray-700">
               재료 AI 최적화법을 활용한 고성능 모터 코어용 초극박 확산형
@@ -75,8 +78,11 @@ function Project() {
           </div>
 
           <div className="border-b pb-6">
-            <h2 className="text-2xl font-bold text-blue-900 mb-2">
+            <h2 className="text-2xl font-bold text-blue-900 mb-2 flex items-center gap-3">
               모빌리티 소재, 요소부품 기술 개발
+              <span className="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full border border-green-200">
+                Done
+              </span>
             </h2>
             <p className="text-lg text-gray-800 font-medium">
               재료 AI 최적화법을 활용한 고성능 모터 코어용 초극박 확산형
