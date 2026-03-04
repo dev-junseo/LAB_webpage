@@ -9,6 +9,7 @@ import Project from "./project/Project";
 import Gallery from "./activities/Gallery";
 import Facilities from "./facilities/Facilities";
 import News from "./activities/News";
+import LabGame from "./activities/LabGame";
 import ResearchAreas from "./project/ResearchArea";
 import MustReadPapers from "./project/MustReadPapers";
 
@@ -27,6 +28,7 @@ function App() {
         <Route path="/facilities/Facilities" element={<Facilities />} />
         <Route path="/activities/News" element={<News />} />
         <Route path="/activities/Gallery" element={<Gallery />} />
+        <Route path="/activities/LabGame" element={<LabGame />} />
       </Routes>
     </div>
   );
