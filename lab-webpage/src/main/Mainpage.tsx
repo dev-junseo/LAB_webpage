@@ -126,7 +126,7 @@ function MainPage() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 md:gap-8 pt-4 md:pt-6">
                 <div className="border-l-4 border-blue-600 pl-4">
                   <h4 className="text-xl md:text-2xl lg:text-3xl font-bold text-title">
-                    AI & Material
+                    Ai & Material
                   </h4>
                   <p className="text-xs md:text-sm text-gray-500 mt-1 md:mt-2">
                     Data-driven optimization for complex process systems.
