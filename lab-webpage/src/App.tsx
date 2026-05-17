@@ -12,6 +12,7 @@ import News from "./activities/News";
 import LabGame from "./activities/LabGame";
 import ResearchAreas from "./project/ResearchArea";
 import MustReadPapers from "./project/MustReadPapers";
+import Join_us from "./join_us/Join_us";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/activities/News" element={<News />} />
         <Route path="/activities/Gallery" element={<Gallery />} />
         <Route path="/activities/LabGame" element={<LabGame />} />
+        <Route path="/join_us/Join_us" element={<Join_us />} />
       </Routes>
     </div>
   );

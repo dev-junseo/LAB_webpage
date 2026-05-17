@@ -246,24 +246,27 @@ function MainPage() {
         </div>
       </section>
 
-      {/* 5. Call to Action / Impact Section */}
+      {/* 5. Join Us Section */}
       <section className="relative py-16 md:py-24 bg-second-bg bg-cover bg-fixed bg-center">
         <div className="absolute inset-0 bg-[#00305b]/85 md:bg-[#00305b]/80"></div>
         <div className="relative container mx-auto px-6 md:px-[10%] text-center">
+          <h3 className="text-white text-xs md:text-sm font-bold tracking-[0.3em] uppercase mb-3 md:mb-4">
+            Join Us
+          </h3>
           <h2 className="text-white text-xl md:text-3xl lg:text-5xl font-bold mb-6 md:mb-8 leading-tight">
-            Advancing Material Science <br className="hidden md:block" /> for a
-            Sustainable Future
+            데이터와 AI로 차세대 철강 소재의 연구를
+            <br className="hidden md:block" /> 함께 만들어갈 분을 찾습니다
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto mb-8 md:mb-12 text-sm md:text-lg px-4 md:px-0">
-            Join us in our journey to discover and optimize materials that will
-            power the electric mobility revolution.
+            신소재공학 지식에 AI 기술을 접목하고, 자유로운 분위기 속에서
+            주도적으로 연구 성과를 만들어가고 싶은 분을 기다립니다.
           </p>
           <div className="flex justify-center">
             <a
-              href="/about/Location"
+              href="/join_us/Join_us"
               className="bg-white text-title px-8 md:px-10 py-3 md:py-4 rounded-full font-bold hover:bg-blue-50 transition-all shadow-xl text-sm md:text-base"
             >
-              Contact Us
+              지원 안내 보기
             </a>
           </div>
         </div>

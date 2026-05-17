@@ -61,6 +61,9 @@ function Header() {
                 <li className="flex w-36 h-10 justify-center items-center">
                   <a href="/activities/Gallery">ACTIVITIES</a>
                 </li>
+                <li className="flex w-36 h-10 justify-center items-center">
+                  <a href="/join_us/Join_us">JOIN US</a>
+                </li>
               </ul>
             </nav>
           </div>
@@ -112,6 +115,9 @@ function Header() {
                       <a href="/activities/LabGame">LAB GAME</a>
                     </li>
                   </ul>
+                </li>
+                <li className="flex w-36 h-12 justify-center items-center">
+                  <a href="/join_us/Join_us">JOIN US</a>
                 </li>
               </ul>
             </nav>
@@ -225,6 +231,11 @@ function Header() {
                       <a href="/activities/LabGame">LAB GAME</a>
                     </li>
                   </ul>
+                </li>
+                <li className="py-4 border-b border-border">
+                  <a href="/join_us/Join_us" className="text-xl ml-5">
+                    JOIN US
+                  </a>
                 </li>
               </ul>
             </nav>
