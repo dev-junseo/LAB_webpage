@@ -4,7 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-function Join_us() {
+function JoinUs() {
   const researchAreas = [
     {
       title: "친환경 모빌리티 핵심 소재 개발",
@@ -299,4 +299,4 @@ function Join_us() {
   );
 }
 
-export default Join_us;
+export default JoinUs;
