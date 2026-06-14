@@ -59,7 +59,7 @@ export const projects: ProjectData[] = [
       "규소 함량 6.5%급 광폭 전기강판 및 xEV 전비 향상형 코어·구동모터 제조기술 개발",
     englishTitle:
       "Development of Manufacturing Technology for 6.5% Silicon Wide Electrical Steel Sheets and xEV Energy-Efficiency-Improved Cores and Drive Motors",
-    period: "2026. 04 ~ (1단계 3년 + 2단계 2년)",
+    period: "2026. 04 ~ 2030.12.31",
     periodSub: "포스코 주관 · 산업통상자원부 · KEIT (자동차산업기술개발)",
     keywords: [
       "6.5% 고규소 전기강판",
@@ -121,7 +121,7 @@ export const projects: ProjectData[] = [
     englishTitle:
       "Development of 3D Printing·HIP Motor-Core Materials and AI-Controlled Manufacturing Processes via Multimodal·Multi-Fidelity AI and Bayesian Optimization",
     period: "2026. 03. 01 ~ 2029. 02. 28",
-    periodSub: "한국연구재단 · 개인기초연구(신진연구, 유형A)",
+    periodSub: "한국연구재단 ",
     keywords: [
       "Multimodal·Multi-Fidelity AI",
       "베이지안 최적화",
