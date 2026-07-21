@@ -6,10 +6,23 @@ export interface NewsItem {
 
 export const newsData: NewsItem[] = [
   // 2026
+
+  {
+    date: "2026.06.13",
+    comments:
+      "하준서 학생의 'Self-supervised learning for grain size prediction in Fe-Si alloy steel sheets: A TabNet-based approach with explainable AI validation' 논문이 MTC에 게재되었습니다. 축하합니다!",
+    category: "News",
+  },
   {
     date: "2026.06.08",
     comments:
       "박세민 교수님께서 한국열처리공학회(KSHT) 편집위원으로 위촉되었습니다.",
+    category: "News",
+  },
+  {
+    date: "2026.05.27",
+    comments:
+      "성민수 학생의 'DDPM 기반 데이터 증강과 AutoML을 활용한 극박 무방향성 전기강판의 자기 특성 예측 및 열처리 공정 최적화' 논문이 KJMM에 게재되었습니다. 축하합니다!",
     category: "News",
   },
   {
@@ -58,7 +71,7 @@ export const newsData: NewsItem[] = [
   {
     date: "2025.09.08",
     comments:
-      "하준서 학생의 'Predicting Grain Size of Fe Si Alloy Steel Sheet through Magnetic Properties and Machine Learning with XAI' 논문이 Journal of Magnetics에 게재되었습니다. 축하합니다!",
+      "하준서 학생의 'Predicting Grain Size of Fe Si Alloy Steel Sheet through Magnetic Properties and Machine Learning with XAI' 논문이 JOM에 게재되었습니다. 축하합니다!",
     category: "Publication",
   },
   {
