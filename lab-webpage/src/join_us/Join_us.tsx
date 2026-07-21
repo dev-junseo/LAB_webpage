@@ -1,10 +1,31 @@
+import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+const CONTACT_EMAIL = "newtain@pknu.ac.kr";
+
 function JoinUs() {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyEmail = async () => {
+    try {
+      await navigator.clipboard.writeText(CONTACT_EMAIL);
+    } catch {
+      // clipboard API를 지원하지 않는 환경 대비
+      const textarea = document.createElement("textarea");
+      textarea.value = CONTACT_EMAIL;
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand("copy");
+      document.body.removeChild(textarea);
+    }
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   const researchAreas = [
     {
       title: "친환경 모빌리티 핵심 소재 개발",
@@ -272,26 +293,51 @@ function JoinUs() {
                 CV와 간단한 자기소개를 보내주세요.
               </p>
             </div>
-            <a
-              href="mailto:newtain@pknu.ac.kr"
+            <button
+              type="button"
+              onClick={handleCopyEmail}
+              title="클릭하면 이메일 주소가 복사됩니다"
+              aria-label={`이메일 주소 ${CONTACT_EMAIL} 복사하기`}
               className="w-full md:w-auto justify-center bg-white text-title px-5 sm:px-6 py-3 rounded-full font-bold hover:bg-blue-50 transition-all shadow-md text-xs sm:text-sm md:text-base flex items-center gap-2 break-all"
             >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth={2}
-                stroke="currentColor"
-                className="w-4 h-4"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                />
-              </svg>
-              newtain@pknu.ac.kr
-            </a>
+              {copied ? (
+                <>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    className="w-4 h-4 shrink-0"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="m4.5 12.75 6 6 9-13.5"
+                    />
+                  </svg>
+                  복사되었습니다!
+                </>
+              ) : (
+                <>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth={2}
+                    stroke="currentColor"
+                    className="w-4 h-4 shrink-0"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                    />
+                  </svg>
+                  {CONTACT_EMAIL}
+                </>
+              )}
+            </button>
           </div>
         </section>
       </div>
